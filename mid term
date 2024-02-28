@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Shoes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nike Shoes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to Nike Shoes</h2>
+            <p>Get the latest and greatest Nike shoes for all occasions.</p>
+            <a href="products.html" class="btn">Shop Now</a>
+        </section>
+        <!-- Other sections and content for the homepage -->
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="C:\Users\guris\Pictures\nike-joyride.jpg" alt="Nike Shoe 1">
+                <h3>Nike Air Max</h3>
+                <p>$150</p>
+            </div>
+            <div class="product">
+                <img src="C:\Users\guris\Pictures\air-max-tw-shoes-bFLHhf.jpg" alt="Nike Shoe 2">
+                <h3>Nike React Infinity Run</h3>
+                <p>$180</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nike Shoes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Nike Shoes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nike Shoes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>We are passionate about providing high-quality Nike shoes to our customers. At Nike Shoes, we believe that everyone deserves to wear comfortable, stylish, and durable footwear. Our mission is to create innovative products that enhance athletic performance and inspire a sense of confidence and well-being.</p>
+                    <p>With a focus on cutting-edge technology and design, we continuously strive to push the boundaries of what's possible in athletic footwear. Our team of designers, engineers, and athletes work together to develop shoes that deliver superior comfort, support, and performance.</p>
+                    <p>From running and basketball to lifestyle and fashion, Nike Shoes offers a wide range of footwear options to suit every style and activity. Whether you're hitting the gym, exploring the outdoors, or simply strolling around town, you can trust Nike Shoes to keep you looking and feeling your best.</p>
+                </div>
+                <div class="about-image">
+                    <img src="C:\Users\guris\Pictures\air-max-tw-shoes-bFLHhf.jpg" alt="About Nike Shoes">
+                </div>
+            </div>
+        </section>
+        <!-- Other sections and content for the about page -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nike Shoes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        
+        <div class="container">
+            <h1></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact-form">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us to order delicious cakes for your special occasions!</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 NIKE. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
